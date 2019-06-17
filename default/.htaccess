@@ -2,3 +2,5 @@ RewriteEngine on
 
 RewriteRule ^lectures$ index.php?page=lectures [L]
 RewriteRule ^lecture/(.*)$ index.php?page=lecture&n=$1 [L]
+RewriteRule ^pizzas$ index.php?page=pizzas [L]
+RewriteRule ^pizza/(.*)$ index.php?page=pizza&n=$1 [L]
