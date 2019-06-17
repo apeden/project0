@@ -12,13 +12,13 @@ else
 switch ($page)
 {
     case 'index':
-        render('templates/header', array('title' => 'CSCI S-74'));
+        render('templates/header', array('title' => 'Alex Peden Pizzas'));
         render('index');
         render('templates/footer');
         break;
 
     case 'lectures':
-		render('templates/header', array('title' => 'Lectures'));
+		render('templates/header', array('title' => 'Pizzas'));
 		render('lectures');
         render('templates/footer');
         break;
